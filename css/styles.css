@@ -13,6 +13,13 @@ footer{
     padding-bottom: 30px;
 }
 
+#nav1
+{  
+    background-color:#F00; /*whichever you want*/
+    opacity: 0.5; 
+    filter:(opacity=50);       
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
@@ -36,7 +43,6 @@ footer{
   font-size: 55px;
   color: black;
 }
-
 
 
  /* Style all font awesome icons */
