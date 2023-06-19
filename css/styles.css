@@ -8,6 +8,19 @@ body{
   -o-background-size: cover;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 footer{
     padding-top: 30px;
     padding-bottom: 30px;
