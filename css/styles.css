@@ -8,6 +8,17 @@ body{
   -o-background-size: cover;
 }
 
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .waitingForConnection {
   animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -130,6 +141,8 @@ footer{
     color: white;
   }
   
+
+
   /* Twitter */
   .fa-twitter {
     background: #55ACEE;
